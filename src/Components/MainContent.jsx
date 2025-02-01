@@ -2,7 +2,7 @@ import React from 'react';
 import mozzarella from '/MenuQRFrontPage.jpg';
 
 const MainContent = () => {
-  const pdfUrl = 'https://akavn123.github.io/MenuForQR.pdf'; 
+  const pdfUrl = 'https://akavn123.github.io/mrmozzarella-menu/MenuForQR.pdf'; 
 
 ;
 
