@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Crostan Bold';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/Fonts/Crostan-Bold.ttf) format('truetype');
+}
