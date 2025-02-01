@@ -2,7 +2,9 @@ import React from 'react';
 import mozzarella from '/MenuQRFrontPage.jpg';
 
 const MainContent = () => {
-  const pdfUrl = '/MenuForQR.pdf';
+  const pdfUrl = 'https://akavn123.github.io/MenuForQR.pdf'; 
+
+;
 
   return (
     <div className='h-auto w-full flex flex-col justify-center items-center gap-4 p-2 rounded-xl'>
@@ -14,7 +16,7 @@ const MainContent = () => {
         {/* View PDF */}
         <a 
           href={pdfUrl} 
-          target="_self"
+          target="_Blank"
           rel="noopener noreferrer"
           className='bg-white py-2 md:py-3 lg:py-4 xl:py-2 2xl:py-3 px-6 md:px-8 font-poppins md:text-lg lg:text-xl xl:text-base font-semibold text-rose-600 shadow-xl'
         >
