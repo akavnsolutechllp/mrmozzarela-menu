@@ -18,7 +18,7 @@ const MainContent = () => {
           href={pdfUrl} 
           target="_Blank"
           rel="noopener noreferrer"
-          className='bg-white py-2 md:py-3 lg:py-4 xl:py-2 2xl:py-3 px-6 md:px-8 font-poppins md:text-lg lg:text-xl xl:text-base font-semibold text-rose-600 shadow-xl'
+          className='bg-white py-2 md:py-3 lg:py-4 xl:py-2 2xl:py-3 px-6 md:px-8 font-poppins md:text-lg lg:text-xl xl:text-base font-semibold text-[#723727] shadow-xl'
         >
           View Pdf
         </a>
@@ -27,7 +27,7 @@ const MainContent = () => {
         <a 
           href={pdfUrl} 
           download="Menu For QR.pdf"
-          className='bg-white py-2 md:py-3 lg:py-4 xl:py-2 2xl:py-3 px-6 md:px-8 font-poppins md:text-lg lg:text-xl xl:text-base font-semibold text-rose-600 shadow-xl'
+          className='bg-white py-2 md:py-3 lg:py-4 xl:py-2 2xl:py-3 px-6 md:px-8 font-poppins md:text-lg lg:text-xl xl:text-base font-semibold text-[#723727] shadow-xl'
         >
           Download Pdf
         </a>
